@@ -27,6 +27,7 @@ public class LaboratoriesControllerTest {
     private List<Student> allstudents;
     private List<Student> stud;
     private Laboratory laboratory;
+    int i = 0;
     @Before
     public void setUp() throws Exception {
         controller=new LaboratoriesController("studentfile.txt","laboratoriesfile.txt");
