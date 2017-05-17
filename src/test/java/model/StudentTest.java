@@ -58,7 +58,7 @@ public class StudentTest {
         student.setGroup(741);
         assertEquals("Eroare in setGroup",741,student.getGroup());
         student.setGroup(-1);
-        assertEquals("Eroare in setGroup",-1,student.getGroup());
+        assertEquals("Eroare in setGroup",-2,student.getGroup());
         student.setGroup(-1);
         assertEquals("Eroare in setGroup",-1,student.getGroup());
     }
